@@ -41,18 +41,18 @@ public class MergeSort {
 		}
 		
 		while (leftIndex < leftArray.length) {
-            array[mergedIndex] = leftArray[leftIndex];
-            mergedIndex++;
-            leftIndex++;
-        }
-        
-        while (rightIndex < rightArray.length) {
-            array[mergedIndex] = rightArray[rightIndex];
-            mergedIndex++;
-            rightIndex++;
-        }
-		
- 	}
+	            array[mergedIndex] = leftArray[leftIndex];
+	            mergedIndex++;
+	            leftIndex++;
+	        }
+	        
+	        while (rightIndex < rightArray.length) {
+	            array[mergedIndex] = rightArray[rightIndex];
+	            mergedIndex++;
+	            rightIndex++;
+	        }
+			
+	}
 	public static void main(String[] args) {
 		
 		int[] myArr = {12, 11, 13, 5, 6, 7};
