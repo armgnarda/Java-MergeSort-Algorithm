@@ -58,7 +58,7 @@ public class MergeSort {
 		int[] myArr = {12, 11, 13, 5, 6, 7};
 		System.out.println("Unsorted: " + Arrays.toString(myArr));
 		mergeSort(myArr);
-		System.out.println("Unsorted: " + Arrays.toString(myArr));
+		System.out.println("Sorted: " + Arrays.toString(myArr));
 
 	}
 }
